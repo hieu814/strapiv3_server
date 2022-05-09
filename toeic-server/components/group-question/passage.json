@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_group_question_passages",
+  "info": {
+    "name": "Passage",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "Content": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "questions",
+  "info": {
+    "name": "Question",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Passages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "group-question.passage"
+    },
+    "Questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "group-question.question"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_group_question_questions",
+  "info": {
+    "name": "Question",
+    "icon": "arrow-circle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Question": {
+      "type": "text"
+    },
+    "Answers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "group-question.answer"
+    }
+  }
+}
