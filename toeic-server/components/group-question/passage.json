@@ -1,12 +1,22 @@
 {
   "collectionName": "components_group_question_passages",
   "info": {
-    "name": "Passage",
-    "icon": "ad"
+    "name": "passage",
+    "icon": "align-justify"
   },
   "options": {},
   "attributes": {
-    "Content": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "content": {
       "type": "richtext"
     }
   }

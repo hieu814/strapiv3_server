@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_listening_question_question_part2s",
+  "info": {
+    "name": "question-part2",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "question_number": {
+      "type": "string",
+      "maxLength": 3,
+      "minLength": 1,
+      "default": "1"
+    },
+    "audio": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "correct_answer": {
+      "type": "enumeration",
+      "enum": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "default": "A"
+    },
+    "transcript": {
+      "type": "richtext"
+    }
+  }
+}

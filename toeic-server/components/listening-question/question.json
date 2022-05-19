@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_group_question2_questions",
+  "info": {
+    "name": "question-part3-4",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "transcript": {
+      "type": "richtext"
+    },
+    "question_number": {
+      "type": "string"
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "group-question.question"
+    },
+    "audio": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

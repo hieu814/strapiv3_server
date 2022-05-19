@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "exams",
+  "collectionName": "part_types",
   "info": {
-    "name": "Exam",
-    "description": ""
+    "name": "Part Type"
   },
   "options": {
     "increments": true,
@@ -17,12 +16,12 @@
       "unique": true,
       "required": true
     },
-    "descripton": {
+    "description": {
       "type": "richtext"
     },
-    "parts": {
-      "via": "exam",
-      "collection": "part"
+    "partID": {
+      "type": "uid",
+      "targetField": "name"
     }
   }
 }

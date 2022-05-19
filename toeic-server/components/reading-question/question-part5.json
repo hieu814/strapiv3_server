@@ -1,12 +1,18 @@
 {
-  "collectionName": "question",
+  "collectionName": "components_reading_question_question_part5s",
   "info": {
-    "name": "question",
-    "icon": "arrow-circle-right",
+    "name": "question-part5",
+    "icon": "angry",
     "description": ""
   },
   "options": {},
   "attributes": {
+    "question_number": {
+      "type": "string"
+    },
+    "question": {
+      "type": "richtext"
+    },
     "A": {
       "type": "string"
     },
@@ -26,19 +32,9 @@
         "B",
         "C",
         "D"
-      ],
-      "default": "A",
-      "required": true,
-      "unique": false
+      ]
     },
-    "question_number": {
-      "type": "string",
-      "required": true,
-      "default": "1",
-      "maxLength": 3,
-      "minLength": 1
-    },
-    "question": {
+    "transcript": {
       "type": "richtext"
     }
   }

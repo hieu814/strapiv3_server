@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_reading_part_6_7_question",
+  "info": {
+    "name": "Part 6-7: Question",
+    "icon": "archway",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "passages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "group-question.passage"
+    },
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "group-question.question"
+    },
+    "transcript": {
+      "type": "richtext"
+    },
+    "question_number": {
+      "type": "string"
+    }
+  }
+}

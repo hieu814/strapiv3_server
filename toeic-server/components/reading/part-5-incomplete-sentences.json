@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_reading_part_5_incomplete_sentences",
+  "info": {
+    "name": "Part 5: Incomplete Sentences",
+    "icon": "ankh",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "reading-question.question-part5"
+    }
+  }
+}

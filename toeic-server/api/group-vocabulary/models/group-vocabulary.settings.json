@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "answer",
+  "collectionName": "group_vocabularies",
   "info": {
-    "name": "answer",
-    "description": ""
+    "name": "Group Vocabulary"
   },
   "options": {
     "increments": true,
@@ -12,11 +11,16 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "answer": {
+    "Title": {
       "type": "string"
     },
-    "description": {
+    "Description": {
       "type": "richtext"
+    },
+    "vocabularies": {
+      "collection": "vocabulary",
+      "via": "group_vocabularies",
+      "dominant": true
     }
   }
 }

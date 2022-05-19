@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "parts",
+  "info": {
+    "name": "part",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Part1",
+        "Part2",
+        "Part3",
+        "Part4",
+        "Part5",
+        "Part6",
+        "Part7"
+      ]
+    },
+    "exam": {
+      "model": "exam",
+      "via": "parts"
+    },
+    "groupQuestions": {
+      "type": "dynamiczone",
+      "components": [
+        "reading.part-5-incomplete-sentences",
+        "listening.part-2-question-response",
+        "listening.part-1-photographs",
+        "listening.part-3-4-conversations-short-talks",
+        "reading.part-6-7-reading-completion"
+      ]
+    }
+  }
+}

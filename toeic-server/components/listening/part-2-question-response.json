@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_listening_part_2_question_responses",
+  "info": {
+    "name": "Part 2: Question-Response",
+    "icon": "angle-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "listening-question.question-part2"
+    }
+  }
+}

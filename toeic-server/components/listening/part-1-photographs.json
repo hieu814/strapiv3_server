@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_listening_part_1_photographs",
+  "info": {
+    "name": "Part 1: Photographs",
+    "icon": "angle-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "listening-question.questions"
+    }
+  }
+}

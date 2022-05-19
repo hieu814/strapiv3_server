@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_listening_question_questions",
+  "info": {
+    "name": "question-part1",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "question_number": {
+      "type": "string",
+      "required": true,
+      "maxLength": 3,
+      "minLength": 1
+    },
+    "correct_answer": {
+      "type": "enumeration",
+      "enum": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "default": "A",
+      "required": false
+    },
+    "transcript": {
+      "type": "richtext"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "audio": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

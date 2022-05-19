@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "questions",
+  "collectionName": "vocabularies",
   "info": {
-    "name": "Question",
-    "description": ""
+    "name": "Vocabulary"
   },
   "options": {
     "increments": true,
@@ -12,29 +11,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
-      "type": "string"
-    },
-    "Questions": {
-      "type": "component",
-      "repeatable": true,
-      "component": "group-question.question"
-    },
-    "Part": {
-      "type": "enumeration",
-      "enum": [
-        "Part1",
-        "Part2",
-        "Part3",
-        "Part4",
-        "Part5",
-        "Part6",
-        "Part7"
-      ],
+    "Word": {
+      "type": "string",
+      "unique": true,
       "required": true
     },
     "Image": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images"
@@ -52,6 +35,13 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "group_vocabularies": {
+      "via": "vocabularies",
+      "collection": "group-vocabulary"
     }
   }
 }

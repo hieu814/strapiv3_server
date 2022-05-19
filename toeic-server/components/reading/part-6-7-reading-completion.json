@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_reading_part_6_7_reading_completions",
+  "info": {
+    "name": "Part 6-7: Reading-Completion",
+    "icon": "angle-double-left"
+  },
+  "options": {},
+  "attributes": {
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "reading-question.part-6-text-completion"
+    }
+  }
+}

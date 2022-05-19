@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_listening_part_3_4_conversations_short_talks",
+  "info": {
+    "name": "Part 3/4: Conversations/Short Talks",
+    "icon": "arrow-alt-circle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "listening-question.question",
+      "attributes": {
+        "questions": {
+          "type": "component",
+          "repeatable": true,
+          "component": "listening-question.questions"
+        }
+      }
+    }
+  }
+}
