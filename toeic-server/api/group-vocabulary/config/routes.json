@@ -47,6 +47,14 @@
       "config": {
         "policies": []
       }
+    },
+    {
+      "method": "GET",
+      "path": "/group-vocabularies2",
+      "handler": "group-vocabulary.find2",
+      "config": {
+        "policies": []
+      }
     }
   ]
 }

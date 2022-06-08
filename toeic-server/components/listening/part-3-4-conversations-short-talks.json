@@ -10,14 +10,7 @@
     "questions": {
       "type": "component",
       "repeatable": true,
-      "component": "listening-question.question",
-      "attributes": {
-        "questions": {
-          "type": "component",
-          "repeatable": true,
-          "component": "listening-question.questions"
-        }
-      }
+      "component": "listening-question.question"
     }
   }
 }

@@ -23,6 +23,14 @@
     "parts": {
       "via": "exam",
       "collection": "part"
+    },
+    "group_exams": {
+      "via": "exams",
+      "collection": "group-exam"
+    },
+    "answer_sheets": {
+      "via": "exam",
+      "collection": "answer-sheet"
     }
   }
 }

@@ -31,15 +31,11 @@
       "required": true,
       "unique": false
     },
-    "question_number": {
-      "type": "string",
-      "required": true,
-      "default": "1",
-      "maxLength": 3,
-      "minLength": 1
-    },
     "question": {
       "type": "richtext"
+    },
+    "number": {
+      "type": "integer"
     }
   }
 }

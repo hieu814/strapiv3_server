@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "vocabularies",
   "info": {
-    "name": "Vocabulary"
+    "name": "Vocabulary",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -42,6 +43,25 @@
     "group_vocabularies": {
       "via": "vocabularies",
       "collection": "group-vocabulary"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Verb",
+        "Noun",
+        "Adjective",
+        "Determiner",
+        "Adverb",
+        "Pronoun",
+        "Preposition",
+        "Conjunction",
+        "Interjection"
+      ],
+      "default": "Verb",
+      "required": true
+    },
+    "translate": {
+      "type": "string"
     }
   }
 }

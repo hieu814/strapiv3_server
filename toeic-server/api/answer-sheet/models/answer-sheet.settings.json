@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "answer_sheets",
+  "info": {
+    "name": "AnswerSheet",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "exam": {
+      "model": "exam",
+      "via": "answer_sheets"
+    },
+    "part1": {
+      "type": "integer"
+    },
+    "part2": {
+      "type": "integer"
+    },
+    "part3": {
+      "type": "integer"
+    },
+    "part4": {
+      "type": "integer"
+    },
+    "part5": {
+      "type": "integer"
+    },
+    "part6": {
+      "type": "integer"
+    },
+    "part7": {
+      "type": "integer"
+    },
+    "users_permissions_user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "answer_sheets"
+    },
+    "selectedQuestion": {
+      "type": "string"
+    }
+  }
+}

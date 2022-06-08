@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/user-test-scores",
-      "handler": "user-test-score.find",
+      "path": "/group-exams",
+      "handler": "group-exam.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/user-test-scores/count",
-      "handler": "user-test-score.count",
+      "path": "/group-exams/count",
+      "handler": "group-exam.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/user-test-scores/:id",
-      "handler": "user-test-score.findOne",
+      "path": "/group-exams/:id",
+      "handler": "group-exam.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/user-test-scores",
-      "handler": "user-test-score.create",
+      "path": "/group-exams",
+      "handler": "group-exam.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/user-test-scores/:id",
-      "handler": "user-test-score.update",
+      "path": "/group-exams/:id",
+      "handler": "group-exam.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/user-test-scores/:id",
-      "handler": "user-test-score.delete",
+      "path": "/group-exams/:id",
+      "handler": "group-exam.delete",
       "config": {
         "policies": []
       }

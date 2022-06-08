@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/answer-sheets",
+      "handler": "answer-sheet.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/answer-sheets/count",
+      "handler": "answer-sheet.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/answer-sheets/:id",
+      "handler": "answer-sheet.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/answer-sheets",
+      "handler": "answer-sheet.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/answer-sheets/:id",
+      "handler": "answer-sheet.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/answer-sheets/:id",
+      "handler": "answer-sheet.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

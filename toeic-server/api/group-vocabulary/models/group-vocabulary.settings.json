@@ -18,8 +18,8 @@
       "type": "richtext"
     },
     "vocabularies": {
-      "collection": "vocabulary",
       "via": "group_vocabularies",
+      "collection": "vocabulary",
       "dominant": true
     }
   }

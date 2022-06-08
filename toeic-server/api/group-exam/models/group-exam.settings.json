@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "user_test_scores",
+  "collectionName": "group_exams",
   "info": {
-    "name": "User Test Score",
+    "name": "GroupExam",
     "description": ""
   },
   "options": {
@@ -12,13 +12,16 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Score": {
+    "Name": {
       "type": "string"
     },
-    "users_permissions_user": {
-      "plugin": "users-permissions",
-      "model": "user",
-      "via": "user_test_score"
+    "exams": {
+      "collection": "exam",
+      "via": "group_exams",
+      "dominant": true
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }

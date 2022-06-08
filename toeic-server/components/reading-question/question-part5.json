@@ -7,9 +7,6 @@
   },
   "options": {},
   "attributes": {
-    "question_number": {
-      "type": "string"
-    },
     "question": {
       "type": "richtext"
     },
@@ -36,6 +33,9 @@
     },
     "transcript": {
       "type": "richtext"
+    },
+    "number": {
+      "type": "integer"
     }
   }
 }

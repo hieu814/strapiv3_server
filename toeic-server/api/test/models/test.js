@@ -28,8 +28,8 @@ module.exports = {
     //   },
     // }
     lifecycles: {
-        afterCreate(result, data) {
-           strapi.emitToAllUsers('test::created', result);
+        beforeCreate(result, data) {
+           
         }
       }
 };

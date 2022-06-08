@@ -63,9 +63,9 @@
       "via": "users_permissions_user",
       "model": "user-infor"
     },
-    "user_test_score": {
+    "answer_sheets": {
       "via": "users_permissions_user",
-      "model": "user-test-score"
+      "collection": "answer-sheet"
     }
   }
 }

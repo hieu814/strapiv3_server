@@ -12,13 +12,29 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "test": {
+    "phone": {
       "type": "string"
     },
     "users_permissions_user": {
       "plugin": "users-permissions",
       "model": "user",
       "via": "user_infor"
+    },
+    "fullname": {
+      "type": "string"
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "address": {
+      "type": "string"
     }
   }
 }

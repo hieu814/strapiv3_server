@@ -7,12 +7,6 @@
   },
   "options": {},
   "attributes": {
-    "question_number": {
-      "type": "string",
-      "required": true,
-      "maxLength": 3,
-      "minLength": 1
-    },
     "correct_answer": {
       "type": "enumeration",
       "enum": [
@@ -46,6 +40,9 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "number": {
+      "type": "integer"
     }
   }
 }
