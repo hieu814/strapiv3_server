@@ -22,11 +22,12 @@
         "Part5",
         "Part6",
         "Part7"
-      ]
+      ],
+      "default": "Part1"
     },
     "exam": {
-      "model": "exam",
-      "via": "parts"
+      "via": "parts",
+      "model": "exam"
     },
     "groupQuestions": {
       "type": "dynamiczone",

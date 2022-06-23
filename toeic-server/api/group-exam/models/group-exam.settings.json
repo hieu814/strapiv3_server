@@ -16,8 +16,8 @@
       "type": "string"
     },
     "exams": {
-      "collection": "exam",
       "via": "group_exams",
+      "collection": "exam",
       "dominant": true
     },
     "description": {

@@ -13,8 +13,8 @@
   "pluginOptions": {},
   "attributes": {
     "exam": {
-      "model": "exam",
-      "via": "answer_sheets"
+      "via": "answer_sheets",
+      "model": "exam"
     },
     "part1": {
       "type": "integer"
