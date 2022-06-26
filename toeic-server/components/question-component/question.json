@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_question_component_questions",
+  "info": {
+    "name": "question",
+    "icon": "book-open",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "A": {
+      "type": "string"
+    },
+    "B": {
+      "type": "string"
+    },
+    "C": {
+      "type": "string"
+    },
+    "question": {
+      "type": "text"
+    },
+    "number": {
+      "type": "integer",
+      "required": true,
+      "default": 1
+    },
+    "correctAnswer": {
+      "type": "enumeration",
+      "enum": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "D": {
+      "type": "string"
+    }
+  }
+}

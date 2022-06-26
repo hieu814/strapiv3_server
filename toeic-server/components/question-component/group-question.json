@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_question_component_group_questions",
+  "info": {
+    "name": "groupQuestion",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "transcript": {
+      "type": "richtext"
+    },
+    "media": {
+      "type": "component",
+      "repeatable": true,
+      "component": "question-component.media"
+    },
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "question-component.question"
+    }
+  }
+}
