@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@strapi/provider-email-sendgrid": "^4.2.0",
+    "@vitalets/google-translate-api": "^8.0.0",
+    "google-dictionary-api": "^1.0.8",
     "strapi": "3.6.9",
     "strapi-admin": "3.6.9",
     "strapi-connector-mongoose": "3.6.9",
@@ -22,7 +24,8 @@
     "strapi-plugin-import-export-content": "^0.4.2",
     "strapi-plugin-upload": "3.6.9",
     "strapi-plugin-users-permissions": "3.6.9",
-    "strapi-utils": "3.6.9"
+    "strapi-utils": "3.6.9",
+    "tunnel": "^0.0.6"
   },
   "author": {
     "name": "A Strapi developer"

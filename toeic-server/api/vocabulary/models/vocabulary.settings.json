@@ -8,16 +8,23 @@
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
-    "Word": {
+    "word": {
       "type": "string",
       "unique": true,
       "required": true
     },
-    "Image": {
+    "group_vocabularies": {
+      "via": "vocabularies",
+      "collection": "group-vocabulary"
+    },
+    "meaning": {
+      "type": "string"
+    },
+    "image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -27,7 +34,7 @@
       "required": false,
       "pluginOptions": {}
     },
-    "Audio": {
+    "audio": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -37,31 +44,8 @@
       "required": false,
       "pluginOptions": {}
     },
-    "Description": {
+    "definition": {
       "type": "richtext"
-    },
-    "group_vocabularies": {
-      "via": "vocabularies",
-      "collection": "group-vocabulary"
-    },
-    "type": {
-      "type": "enumeration",
-      "enum": [
-        "Verb",
-        "Noun",
-        "Adjective",
-        "Determiner",
-        "Adverb",
-        "Pronoun",
-        "Preposition",
-        "Conjunction",
-        "Interjection"
-      ],
-      "default": "Verb",
-      "required": true
-    },
-    "translate": {
-      "type": "string"
     }
   }
 }

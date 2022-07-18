@@ -48,5 +48,14 @@
         "policies": []
       }
     }
+    ,
+    {
+      "method": "GET",
+      "path": "/parts/getpart/:id",
+      "handler": "part.getpart",
+      "config": {
+        "policies": []
+      }
+    }
   ]
 }

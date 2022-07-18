@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "part_types",
   "info": {
-    "name": "Part Type"
+    "name": "Part Type",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -19,9 +20,31 @@
     "description": {
       "type": "richtext"
     },
-    "partID": {
-      "type": "uid",
-      "targetField": "name"
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Part1",
+        "Part2",
+        "Part3",
+        "Part4",
+        "Part5",
+        "Part6",
+        "Part7"
+      ]
+    },
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "parts": {
+      "via": "part_type",
+      "collection": "part"
     }
   }
 }

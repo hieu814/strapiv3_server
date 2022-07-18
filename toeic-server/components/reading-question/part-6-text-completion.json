@@ -7,11 +7,6 @@
   },
   "options": {},
   "attributes": {
-    "passages": {
-      "type": "component",
-      "repeatable": true,
-      "component": "group-question.passage"
-    },
     "questions": {
       "type": "component",
       "repeatable": true,
@@ -22,6 +17,9 @@
     },
     "question_number": {
       "type": "string"
+    },
+    "passage": {
+      "type": "richtext"
     }
   }
 }
